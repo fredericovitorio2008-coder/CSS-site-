@@ -13,11 +13,13 @@
 
        
         <nav clas="navbar">
+
+
             
             <ul class="nav-list">
-                <li><a href="#">Home</li></a>
-                <li><a href="#">Sobre</li></a>
-                <li><a href="#">Projetos</li></a>
+                <li><a href="#home">Home</li></a>
+                <li><a href="#sobre">Sobre</li></a>
+                <li><a href="#projetos">Projetos</li></a>
             </ul>
 
         </nav>    
@@ -32,26 +34,30 @@
 
         <section class="box">
 
-            <h1>Olá,<br>
-                Seja bem vindo
-            </h1>
+            <div>
+
+                <h1>Olá,<br>
+                    Seja bem vindo
+                </h1>
+
                 <p>Crie soluções par seu negócio!</p>
-                <button type="button">Veja meus projetos👇</button>
+
+                <a href="#projetos"><button class="call-toaction">Veja meus projetos👇</button></a>
+
+            </div>
 
         </section>
        
-    
     </main>
 
     <!--fim do main-->
 
 
+    <!--Inicio Sobre-->
 
-    <section class="Home">
+    <section id="sobre" class="about">
 
-        <h2>
-            Sobre
-        </h2>
+        <h2>Sobre</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eligendi beatae amet cum, ipsa fugit nostrum temporibus ut nam magni odio inventore! Quidem asperiores, eaque expedita totam dolor et repellat, facilis iusto ut sed, dignissimos perspiciatis quas nemo. Asperiores, nam.</p>
 
@@ -61,23 +67,44 @@
 
     </section>
 
-    <section class="box">
+    
+    <!--fim do sobre-->
 
-        <h2>Meus Projetos</h2>
 
-        <p>Conheça meus Projetos</p>
+    <!--inicio projetos-->
 
-            <img src="img/projeto1.png">
-            <img src="img/projeto2.png">
-            <img src="img/projeto3.png">
-            <img src="img/projeto2.png">
-            <img src="img/projeto3.png">
-            <img src="img/projeto1.png">
+    <section id="Projetos" class="projetcs">
 
-            <button type="button">Faça um orçamento</button>
+        <div>
+
+            <h2>Meus Projetos</h2>
+
+            <p>Conheça meus Projetos</p>
+
+        </div>
+
+        <div class="project-list">
+
+            <img src="img/projeto1.png" alt="projeto 1">
+            <img src="img/projeto2.png" alt="projeto 2">
+            <img src="img/projeto3.png" alt="projeto 3">
+
+        </div>
+
+        <div class="project-list">
+
+            <img src="img/projeto2.png" alt="projeto 4">
+            <img src="img/projeto3.png" alt="projeto 5">
+            <img src="img/projeto1.png" alt="projeto 6">
+
+        </div>
+
+        <button class="action">Faça um orçamento</button>
     </section>
 
-    <br>
+    <!--fim projetos-->
+
+    <!--inicio rodape-->
 
     <footer>
 
@@ -86,12 +113,8 @@
         <p>Todos os direitos resevardos</p>
 
     </footer>
-    
 
-
-
-
-   
+    <!--fim rodape-->
     
 </body>
 </html>
